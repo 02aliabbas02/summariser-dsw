@@ -1,0 +1,13 @@
+# Enable error logging
+php_value log_errors 1
+php_value error_log "/Applications/XAMPP/xamppfiles/htdocs/summariser/php-error.log"
+
+# Optional: Set error reporting level
+php_value error_reporting 32767
+
+# Optional: Display errors (for development purposes)
+php_value display_errors 1
+
+# Optional: Display startup errors
+php_value display_startup_errors 1
+
